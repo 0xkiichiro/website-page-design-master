@@ -1,8 +1,8 @@
 @import "./abstracts/mixin", "./abstracts/variable";
 @import "./base/reset";
 @import "./pages/about", "./pages/home", "./pages/services";
-@import "./components/footer", "./components/nav", "./components/responsive",
-  "./components/newsletter";
+@import "./components/newsletter", "./components/footer", "./components/nav",
+  "./components/responsive";
 
 body {
   font-family: Arial, Helvetica, sans-serif;

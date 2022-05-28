@@ -56,6 +56,19 @@
   width: 90px;
 }
 
+.subscribe {
+  background-color: #35424a;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.subscribe #newsletter p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .footer {
   height: 10vh;
   display: flex;
@@ -116,19 +129,6 @@
 }
 .navbar span {
   color: #8e4e8b;
-}
-
-.subscribe {
-  background-color: #35424a;
-  height: 10vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.subscribe #newsletter p {
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: bold;
 }
 
 body {
