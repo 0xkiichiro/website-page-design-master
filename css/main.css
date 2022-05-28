@@ -18,6 +18,39 @@
   box-sizing: border-box;
 }
 
+.about-us {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+}
+.about-us .about {
+  width: 552px;
+  margin: 5rem 0;
+  line-height: 1.5rem;
+}
+.about-us .about h4 {
+  font-size: 1.5rem;
+}
+.about-us .about > * {
+  margin: 1rem 0;
+}
+.about-us .dark {
+  background-color: #35424a;
+  color: #fff;
+  padding: 1rem;
+}
+.about-us .we-do {
+  width: 256px;
+  margin-top: 5rem;
+  line-height: 1.5rem;
+}
+.about-us .we-do span {
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 1rem;
+}
+
 .main {
   height: 100vh;
 }
@@ -56,6 +89,52 @@
   width: 90px;
 }
 
+.services-container {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.services {
+  width: 50%;
+}
+.services h4 {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+.services #description {
+  background-color: #e6e6e6;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+.services span {
+  font-size: 1rem;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.dark {
+  background-color: #35424a;
+  color: #fff;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.dark p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.dark input {
+  width: 100%;
+}
+.dark label {
+  display: block;
+}
+
 .subscribe {
   background-color: #35424a;
   height: 10vh;
@@ -88,7 +167,7 @@
   justify-content: space-around;
   height: 10vh;
   border-bottom: 4px solid #8e4e8b;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
 }

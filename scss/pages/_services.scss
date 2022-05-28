@@ -1,0 +1,52 @@
+.services-container {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.services {
+  width: 50%;
+
+  h4 {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  #description {
+    background-color: $bgCard;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+  }
+
+  span {
+    font-size: 1rem;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+}
+
+.dark {
+  background-color: $bgColor;
+  color: $primaryColor;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  gap: 1rem;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  label {
+    display: block;
+  }
+}

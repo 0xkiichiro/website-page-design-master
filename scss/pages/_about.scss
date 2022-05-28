@@ -1,0 +1,37 @@
+.about-us {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+
+  .about {
+    width: 552px;
+    margin: 5rem 0;
+    line-height: 1.5rem;
+
+    h4 {
+      font-size: 1.5rem;
+    }
+
+    & > * {
+      margin: 1rem 0;
+    }
+  }
+
+  .dark {
+    background-color: $bgColor;
+    color: $primaryColor;
+    padding: 1rem;
+  }
+  .we-do {
+    width: 256px;
+    margin-top: 5rem;
+    line-height: 1.5rem;
+
+    & span {
+      font-size: 1rem;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 1rem;
+    }
+  }
+}
