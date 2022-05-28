@@ -1,0 +1,13 @@
+.subscribe {
+  background-color: $bgColor;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  #newsletter p {
+    color: $primaryColor;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
