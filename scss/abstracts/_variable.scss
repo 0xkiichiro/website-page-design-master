@@ -1,0 +1,20 @@
+$bgColor: #35424a;
+$primaryColor: #fff;
+$secondaryColor: #8e4e8b;
+$colorWhite: white;
+$colorBlack: black;
+$bgCard: #e6e6e6;
+
+.input {
+  padding: 0.75rem;
+  border: none;
+  outline: none;
+}
+
+.button {
+  background-color: $secondaryColor;
+  color: $primaryColor;
+  border: none;
+  outline: none;
+  padding: 0.75rem;
+}

@@ -1,0 +1,62 @@
+.navbar {
+  background-color: $bgColor;
+  color: $primaryColor;
+
+  display: flex;
+  justify-content: space-around;
+
+  height: 10vh;
+
+  border-bottom: 4px solid $secondaryColor;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  .left-navbar {
+    display: flex;
+    align-items: center;
+    // height: 100%;
+  }
+
+  .right-navbar {
+    display: flex;
+    align-items: center;
+    // height: 100%;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+
+    li {
+      height: 100%;
+    }
+
+    a {
+      font-size: 1rem;
+      text-decoration: none;
+      color: $primaryColor;
+      padding: 0 2rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      height: 100%;
+
+      display: flex;
+      align-items: center;
+
+      &:hover {
+        color: $secondaryColor;
+        cursor: pointer;
+      }
+    }
+  }
+  .active {
+    color: $secondaryColor;
+  }
+  span {
+    color: $secondaryColor;
+  }
+}

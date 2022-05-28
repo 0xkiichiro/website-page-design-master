@@ -1,0 +1,138 @@
+.input {
+  padding: 0.75rem;
+  border: none;
+  outline: none;
+}
+
+.button {
+  background-color: #8e4e8b;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 0.75rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+}
+
+.banner {
+  background-image: url(../../images/showcase.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner #name {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.subscribe {
+  background-color: #35424a;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.subscribe #newsletter p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem 0;
+  background-color: #e6e6e6;
+}
+.logo .box {
+  width: 500px;
+}
+.logo .box > * {
+  padding: 1rem 0;
+}
+.logo img {
+  width: 90px;
+}
+
+.footer {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 4px solid #8e4e8b;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #35424a;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  border-bottom: 4px solid #8e4e8b;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar .left-navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar .right-navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+}
+.navbar ul li {
+  height: 100%;
+}
+.navbar ul a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.navbar ul a:hover {
+  color: #8e4e8b;
+  cursor: pointer;
+}
+.navbar .active {
+  color: #8e4e8b;
+}
+.navbar span {
+  color: #8e4e8b;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */
